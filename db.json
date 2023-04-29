@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "firstname": "jayesh",
+      "lastname": "nk",
+      "phonenumber": 9512365478,
+      "city": "delhi",
+      "id": 2
+    },
+    {
+      "firstname": "raj",
+      "lastname": "jain",
+      "phonenumber": 9632587412,
+      "city": "pune",
+      "id": 3
+    }
+  ],
+  "signup": [
+    {
+      "name": "jayesh",
+      "email": "jayesh@gmail.com",
+      "password": "jayesh123",
+      "id": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
