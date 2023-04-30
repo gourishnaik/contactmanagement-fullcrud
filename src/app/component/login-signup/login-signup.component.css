@@ -7,6 +7,6 @@ section{
     background-image: linear-gradient(-225deg, #20E2D7 0%, #F9FEA5 100%);
 }
 .card{
-    border-radius: 5px;
-    background-image: linear-gradient(180deg, #2af598 0%,#009efd 100%);
+    border-radius: 35px;
+    /* background-image: linear-gradient(180deg, #2af598 0%,#009efd 100%); */
 }
