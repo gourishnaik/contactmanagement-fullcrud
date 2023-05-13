@@ -1,0 +1,17 @@
+.image{
+    width: 600px;
+    margin-top: 85px;
+}
+
+.card{
+    top: 60%;
+    left: 40%;
+    width: 435px;
+    padding: 31px 40px;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+}
+h5{
+    width: 600px;
+    font-size: 21px;
+}
