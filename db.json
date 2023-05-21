@@ -13,6 +13,34 @@
       "phonenumber": 9632587412,
       "city": "pune",
       "id": 3
+    },
+    {
+      "firstname": "ritesh",
+      "lastname": "jn",
+      "phonenumber": 963258745,
+      "city": "bangaluru",
+      "id": 4
+    },
+    {
+      "firstname": "jim",
+      "lastname": "dim",
+      "phonenumber": 8523695456,
+      "city": "new york",
+      "id": 5
+    },
+    {
+      "firstname": "Mark",
+      "lastname": "Otto",
+      "phonenumber": 9632584563,
+      "city": "sydney",
+      "id": 6
+    },
+    {
+      "firstname": "mitesh",
+      "lastname": "khan",
+      "phonenumber": 9632587412,
+      "city": "mumbai",
+      "id": 7
     }
   ],
   "signup": [
@@ -21,9 +49,40 @@
       "email": "jayesh@gmail.com",
       "password": "jayesh123",
       "id": 1
+    },
+    {
+      "name": "jitesh",
+      "email": "jitesh@gmail.com",
+      "password": "jitesh123",
+      "id": 2
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "contactus": [
+    {
+      "name": "nitesh",
+      "email": "nitesh@gmail.com",
+      "message": "filter problem",
+      "id": 4
+    },
+    {
+      "name": "max",
+      "email": "max@gmail.com",
+      "message": "problem in filter",
+      "id": 5
+    },
+    {
+      "name": "gourish",
+      "email": "gourishpnaik@gmail.com",
+      "message": "i am feeling problem in editing",
+      "id": 6
+    }
+  ],
+  "signupadmin": [
+    {
+      "name": "nitesh",
+      "email": "nitesh@gmail.com",
+      "password": "dsdsdsd",
+      "id": 1
+    }
+  ]
 }
