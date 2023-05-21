@@ -1,0 +1,41 @@
+<!--navbar-->
+<nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-fluid">
+        <h1 style="color: white;font-size: 24px;">Admin view Page</h1>
+        <div>
+            <button (click)="logout()"  class="btn btn-dark"routerLink="/adminlogin-signup">Logout</button>&nbsp;
+            <button  class="btn btn-warning"routerLink="/">Home</button>
+        </div>
+    </div>
+</nav>
+<div>
+</div>
+
+
+<div class="container mt-4">
+ 
+    <h5 style="font-size: 35px;">User Query list</h5>
+    
+    <table class="table ">
+        <thead>
+          <tr>
+            <th scope="col">Sl No</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Message</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of data">
+            <th scope="row">{{item.id}}</th>
+            <td>{{item.name}}</td>
+            <td>{{item.email}}</td>
+            <td>{{item.message}}</td>
+            <td> <i style="color:red;"(click)="delete(item.id)" class="fas fa-trash"></i></td>
+          </tr>
+        
+        </tbody>
+      </table>
+
+</div>

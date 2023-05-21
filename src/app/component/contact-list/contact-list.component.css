@@ -1,0 +1,19 @@
+.image{
+    width: 600px;
+    margin-top: 85px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #039be5;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+
+  
