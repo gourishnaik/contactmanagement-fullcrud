@@ -80,6 +80,12 @@ export class LoginSignupComponent implements OnInit {
     })
   }
 
-  
-  
+  adminlogin(){
+    // routerLink="/adminlogin-signup"
+   
+      this.router.navigate(['/adminlogin-signup']);
+    
+    
+
+}
 }
