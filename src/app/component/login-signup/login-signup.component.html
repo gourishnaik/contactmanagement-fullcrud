@@ -28,7 +28,8 @@
 
                                     <div class="form-outline mb-2">
                                         <label class="form-label">Password</label>
-                                        <input type="password"placeholder="Enter your password"formControlName="password" class="form-control form-control-lg">
+                                        <input type="password" placeholder="Enter your password" formControlName="password" class="form-control form-control-lg" (keydown.enter)="loginuser()">
+
                                     </div>
                                  <div class="pt-1 mb-3 text-center">
                                     <button [disabled]="this.loginform.invalid" class="btn btn-dark"type="button"(click)="loginuser()">Login</button>
@@ -36,11 +37,12 @@
                                  <p class="mt-3 pb-lg-2">Don't have an account?
                                  <a (click)="signup()" style="color:black;cursor:pointer;font-weight: 700;"> signup here</a>
                                 </p>
-                                <div class="text-center">
-                                    <button routerLink="/adminlogin-signup" class="btn btn-warning">Admin login</button>
-                                </div>
+                               
                             
                                 </form>
+                                <div class="text-center">
+                                    <button (click)="adminlogin()" class="btn btn-warning">Admin login</button>
+                                </div>
                             </div>
                         </div>
                     </div>
