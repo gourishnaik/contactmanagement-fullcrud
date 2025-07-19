@@ -57,11 +57,12 @@ export class LoginSignupComponent implements OnInit {
 
   loginuser() {
     this.http.get<login[]>("http://localhost:3000/signup").subscribe(res => {
-      // matching email & password
+   console.warn(res)
       const user = res.find((a: any) => {
+        console.warn(a)
         return a.email === this.loginform.value.email && a.password === this.loginform.value.password;
       })
-      // check condition for login
+   
 
       if (user) {
         alert("successfully logged in");
@@ -74,7 +75,7 @@ export class LoginSignupComponent implements OnInit {
         this.loginform.reset();
       }
     }, err => {
-      // alert("something went wrong try after sometime")
+
       this.loginform.reset();
       this.router.navigate(["/server-error"])
     })
